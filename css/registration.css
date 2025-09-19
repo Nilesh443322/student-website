@@ -1,0 +1,149 @@
+      
+            #outer{
+               /* min-height:600px; */
+               height: 100%;
+                width:100%;
+                background-color:black;
+                border-radius: 20px;
+                justify-items: center;
+                background-image: url('../image/16.jpg');
+            
+            }
+            #r1{
+                background-color:rgb(4, 4, 4) ;
+                height:60px;
+                width:99.6%;
+                color:wheat;
+                line-height: 14px;
+                /* padding-top: 25px; */
+                display: flex;
+                
+                animation:myanimation 2s infinite;
+                border-radius:20px;
+                
+            }
+            @keyframes myanimation{
+                from{border: 4px solid rgb(250, 5, 5); ;}
+                to{border: 4px solid rgb(10, 249, 217);
+                    color: rgb(223, 136, 5);}
+            }
+            #hlog{
+              margin-left: 20px;
+
+            }
+            #header{
+              margin-left: 500px;
+            }
+            
+            p{
+                text-align:center;
+                font-size: 25px;
+                font-style: italic;
+            }
+            p:hover{
+                font-size: 26px;
+                
+            }
+          
+          
+            span{
+                padding:10px;
+             }
+            span:hover{ 
+                 border: 2px  solid rgb(184, 133, 232);
+                 border-radius:20px;
+                 padding-bottom: 1px;
+                 color: rgb(47, 172, 255);
+                 
+             } 
+             
+            
+              fieldset{
+                
+                color: rgb(248, 248, 250);
+                height: 470px;
+                width: 450px;
+                border: 5px solid rgb(125, 8, 228);
+                font-size: larger;
+                padding-top: 50px;
+                padding-left: 50px;
+                /* animation:anime 5s infinite; */
+                margin-top: 20px;
+                border-radius: 10px;
+                
+                
+              }
+              /* @keyframes anime{
+                to{
+                    border:8px solid rgb(55, 1, 86);
+                   
+                } */
+              /* } */
+              input{
+                margin-left: 46px;
+                border-radius: 7px;
+                font-size: larger;
+                transition: all ease 0.2s;
+              }
+              input:hover{
+                border: 4px solid rgb(189, 131, 244);
+                background-color: rgb(156, 158, 159);
+
+              }
+              textarea{
+                font-size: larger;
+                margin-top: 4px;
+                margin-left: 58px;
+                border-radius: 10px;
+              }
+              textarea:hover{
+                border-radius: 7px;
+                border: 4px solid rgb(189, 131, 244);
+                background-color: rgb(156, 158, 159);
+              }
+              #lname{
+                margin-left: 60px;
+
+              }
+              #hschool{
+                margin-right: 10px;
+              }
+              #diploma{
+                margin-left: 153px;
+              }
+              #lnum{
+                margin-left: 60px;
+              }
+              #dob{
+                margin-left: 80px;
+              }
+             
+              /*button styles*/
+     button{
+       
+        height: 50px;
+        width: 90px;
+        
+        box-shadow: 2px 2px 15px 1px rgb(2, 221, 250);
+        border-radius: 30px;
+        font-size: 15px;
+        font-weight: bolder;
+       
+        margin-left: 70px;
+        transition: all ease 0.5s;
+    }
+    button:hover{
+        margin: auto;
+        margin-bottom: 5px;
+        margin-left: 60px;
+        height: 55px;
+        width: 100px;
+        font-size:16px ;
+        border: 4px solid rgb(189, 131, 244);
+        background-color: rgb(156, 158, 159);
+    }
+    a{
+      text-decoration: none;
+    }
+
+         

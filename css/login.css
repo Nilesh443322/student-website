@@ -1,0 +1,95 @@
+ #outer{
+           height: 400px;
+           width: 350px;
+           background-color:   #00001a;
+           margin-top: 100px;
+           margin-left: 580px;
+           box-shadow: 7px 6px  8px  rgb(1, 1, 78) inset ,-4px -6px 8px rgb(1, 1, 80) inset;
+           border-radius: 15px;
+        }
+         
+        /* #outer:hover{
+          height: 400px;
+          width: 350px;
+          border: 1px solid white;
+        } */
+        h2 {
+            text-align: center;
+            line-height: 50px;
+            font-size: 25px;
+            color: white;
+        }
+      #r1 {
+        height: 40px;
+        width: 190px;
+        float: left;
+      }
+      #r1a {
+        height: 40px;
+        width: 40px;
+        margin-left: 20px;
+        float: left;
+      }
+     #r1b {
+        height: 60px;
+        width: 70px;
+        align-self: center;
+        float: left;
+        
+      }
+      #r2 {
+        height: 40px;
+        width: 190px;
+        float: left;
+      }
+      #r2a {
+        height: 40px;
+        width: 40px;
+        margin-left: 20px;
+        float: left;
+        margin-top: 20px;
+      }
+     #r2b {
+        height: 60px;
+        width: 70px;
+        align-self: center;
+        float: left;
+        margin-top: 20px;
+      }
+    
+    
+
+      #LOGIN {
+          height: 50px;
+          width: 260px;
+          color: black;
+          background-color: white;
+          margin-top: 50px;
+          margin-left: 45px;
+          border-radius: 10px;
+          font-size: 18px;
+      }
+
+       #LOGIN:hover {
+          height: 50px;
+          width: 260px;
+          border: 2px solid black;
+          font-size:20px ;
+       }
+      #REGISTER {
+         height: 30px;
+         width: 180px;
+         color: rgb(236, 5, 5);
+         background-color: #000053;
+         margin-left: 80px;
+         text-align: center;
+         font-size: 20px;
+         line-height: 30px;
+         margin-top: 20px;
+      }
+  #REGISTER:hover {
+    height: 30px;
+    width: 180px;
+  border: 1px solid white;
+    
+  }

@@ -1,0 +1,99 @@
+ #outer{
+            
+                min-height: 900px;
+                width:100%;
+                background-color:black;
+                 border-radius: 25px;
+                
+            
+            }
+            #r1{
+                height:80px;
+                width:99.3%;
+                background-color: black;
+                color:wheat;
+                display: flex;
+                line-height: 50px;
+                margin: auto;
+                animation-name: myanimation;
+                animation-duration: 10s;
+                animation:myanimation 5s infinite;
+                border-radius: 25px;
+            
+            }
+            @keyframes myanimation{
+                from{border:5px solid coral;} 
+                to{border:5px solid mediumseagreen;}           
+            }
+            #about{
+                margin-top: 20px;
+                margin: auto;
+            }
+            #r2{
+                height: 630px;
+                width: 97.6%;
+                background-image: url(../image/16.jpg);
+                
+                display: flex;
+                padding-left: 20px;
+                color:white;
+                
+
+            }
+            #r3{
+                height:530px;
+                width: 100%;
+                display: flex;
+                color:white;
+                background-image: url(../image/16.jpg);
+
+            }
+            #r4{
+                height: 420px;
+                width: 98.6%;
+                background-image: url(../image/16.jpg);
+                display: flex;
+                padding-left:20px;
+                color:white;
+
+
+            }
+            .c1{
+                height: 100%;
+                width: 50%;
+                font-size: larger;
+
+                
+            }
+            .c2{
+                height: 100%;
+                width: 50%;
+                background-color: black
+            }
+        
+        
+            
+            img{
+                height:100%;
+                width:100%;
+            }
+            li:hover{
+                
+                font-size: 22px;
+            }
+            h2:hover{
+                color:darkgoldenrod;
+            
+            }
+            span{
+                font-size: 30px;
+                margin: auto;
+                padding: 10px;
+                
+               
+            }
+            span:hover{
+                border: 2px solid rgb(129, 239, 56);
+                border-radius: 20px;
+
+            }

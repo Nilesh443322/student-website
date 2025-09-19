@@ -1,0 +1,220 @@
+
+        #main{
+            margin: auto;
+            background-color:black;
+            height: 350%;
+            width: 100%;
+            border-radius: 20px;
+            
+        }
+        header{
+            height: 70px;
+            width: 99.5%;
+            background-color: rgb(6, 6, 6);
+            border: 4px solid rgb(250, 5, 5);
+            border-radius: 20px;
+            text-align: center;
+            line-height: 70px;
+            color: aliceblue;
+            font-size: 40px;
+            font-weight: bolder;
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+            animation: head 2s infinite;
+            display: flex;
+            
+        }
+        header:hover{
+            font-size:45px ;
+            color:rgb(7, 245, 166)
+        }
+        @keyframes head{
+            to{ height: 70px;
+                border: 4px solid rgb(10, 249, 10);
+                width: 99.5%;
+                color: rgb(223, 136, 5);
+            }
+        }
+        #hlogos{
+            height:100px;
+            width: 100px;
+            margin-top: 5px;
+            padding-left: 15px;
+
+        } 
+        #hcontent{
+            margin-left: 520px;
+        }
+        .r{
+            margin-top: 70px;
+            height: 530px; /*410*/
+            width: 100%;
+            /* background-color: blue; */
+            display: flex;
+           
+        }
+      
+       
+           
+        
+        .card{
+            margin-top: 2px;
+            height:530px;
+            width: 400px;
+            /* background-color: rgb(59, 54, 54); */
+            
+            
+            margin-left:70px; 
+            
+            
+            
+        }
+        .card:hover{
+            height:540px ;
+            width: 400px; /* experiment */
+        }
+        
+        .bgimg{
+            height: 60%;
+            width: 100%;
+            background-color: rgb(27, 40, 51);
+            border-top-left-radius: 50px;
+            border-top-right-radius: 50px;
+            animation: bgimg 3s infinite;
+            border-top:10px solid rgb(227, 118, 9) ;
+            border-left:10px solid rgb(121, 48, 6) ;
+            border-right:10px solid rgb(159, 95, 5) ;
+        }
+        @keyframes bgimg{
+            to{
+                border-top:10px solid rgb(6, 239, 219) ;
+                border-left:10px solid rgb(12, 241, 192) ;
+                border-right:10px solid rgb(80, 212, 177) ;
+                 
+            }
+              }
+        
+        .img{
+            height: 100%;
+            width: 100%;
+            background-color: rgb(214, 7, 255);
+            transition: all ease 0.7s; 
+          
+            border-radius: 40px;     
+        }
+        .img:hover{
+            rotate: 180deg;
+        }
+         
+      
+        .content{
+            height: 40%;
+            width: 100%;
+            border-bottom-left-radius: 50px;
+            border-bottom-right-radius: 50px;
+            background-color: rgb(27, 40, 51);
+            animation: content 3s infinite;
+            border-bottom:10px solid rgb(231, 172, 23) ;
+            border-left:10px solid rgb(239, 135, 16) ;
+            border-right:10px solid rgb(185, 104, 13) ;
+            text-align: center;
+            color: aliceblue;
+            /* font-size: 40px;
+            font-weight: bolder;
+            line-height: 161px; */
+            font-style: italic; 
+            
+        }
+        @keyframes content{
+            to{
+                border-bottom:10px solid rgb(53, 190, 195) ;
+                border-left:10px solid  rgb(12, 241, 192)  ;
+                border-right:10px solid rgb(80, 212, 177) ;
+                 
+            }
+         }
+        
+        /* .imagecontent{
+            font-size: 40px;
+            font-weight: bolder;
+            line-height: 161px;
+            
+
+
+        } */
+        .slideimage{
+            height: 90%;
+            width: 90%;
+            margin: 15px;
+            margin-left: 20px;
+            border-radius: 20px;
+            transition: all ease 1s;
+        }
+        .slideimage:hover{
+            rotate: 180deg;
+        }
+
+        .iimage{
+            height:300px;
+            width:360px;
+            position:absolute;
+            top:178px;
+            left:110px;
+            border-radius: 20px;
+
+
+        }
+        .i2{
+            left: 580px;
+        }
+        .i3{
+            left:1050px
+        }
+        .i4{
+            top: 715px;
+            
+
+        }
+        .i5{
+            top: 715px;
+            left: 587px;
+        }
+       .i6{
+       top: 715px;
+         left:1055px
+       }
+       .i7{
+        top: 1375px;
+       }
+       .i8{
+         top: 1375px;
+         left: 580px;
+
+       }
+       .i9{
+        top: 1375px;
+         left:1050px
+
+       }
+       .i10{
+        top: 1978px;
+       }
+       .i11{
+          top: 1978px;
+          left: 580px;
+       }
+       .i12{
+       top: 1978px;
+        left:1050px
+
+       }
+       span{
+        
+        font-size: 30px;
+       }
+       .studentd{
+        font-size: larger;
+        font-weight: bolder;
+       
+       }
+    

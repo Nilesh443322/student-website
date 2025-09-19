@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       .r{
+            margin-top: 30px;
+            height: 380px;
+            width: 200%;
+            background-color: blue;
+            display: flex;
+        }
+      
+       
+           
+        
+        .card{
+            height:100%;
+            width: 300px;
+            /* background-color: rgb(59, 54, 54); */
+            
+            
+            margin-left:110px; 
+            
+            
+        }
+        .bgimg{
+            height: 60%;
+            width: 100%;
+            background-color: rgb(27, 40, 51);
+            border-top-left-radius: 50px;
+            border-top-right-radius: 50px;
+            animation: bgimg 3s infinite;
+            border-top:10px solid rgb(227, 118, 9) ;
+            border-left:10px solid rgb(121, 48, 6) ;
+            border-right:10px solid rgb(159, 95, 5) ;
+        }
+        @keyframes bgimg{
+            to{
+                border-top:10px solid rgb(6, 239, 219) ;
+                border-left:10px solid rgb(12, 241, 192) ;
+                border-right:10px solid rgb(80, 212, 177) ;
+                 
+            }
+              }
+        .img{
+            height: 100%;
+            width: 100%;
+            background-color: rgb(214, 7, 255);
+            transition: all ease 0.7s; 
+          
+            border-radius: 40px;     
+        }
+        .img:hover{
+            rotate: 180deg;
+        }
+         
+      
+        .content{
+            height: 40%;
+            width: 100%;
+            border-bottom-left-radius: 50px;
+            border-bottom-right-radius: 50px;
+            background-color: rgb(27, 40, 51);
+            animation: content 3s infinite;
+            border-bottom:10px solid rgb(231, 172, 23) ;
+            border-left:10px solid rgb(239, 135, 16) ;
+            border-right:10px solid rgb(185, 104, 13) ;
+        }
+        @keyframes content{
+            to{
+                border-bottom:10px solid rgb(53, 190, 195) ;
+                border-left:10px solid  rgb(12, 241, 192)  ;
+                border-right:10px solid rgb(80, 212, 177) ;
+                 
+            }
+
+        }
+        img{
+            height: 205px;
+            width: 270px;
+            position:absolute;
+            top:50px;
+            left:145px;
+            border-radius: 20px;
+
+
+        }
+      
+       
+    </style>
+</head>
+<body>
+    <div class="r">
+                 
+                        <div class="card">
+                            <div class="bgimg">
+                                <div class="img">
+                                    <!-- <img src="" alt=""> -->
+                                </div>
+                            </div>                           
+                            <div class="content"> 
+                           </div>
+  
+                        </div>
+                        <img  src="image/photo.jpg" alt="">
+                         <div class="card">
+                            <div class="bgimg">
+                                <div class="img">
+                                    <!-- <img src="" alt=""> -->
+                                </div>
+                            </div>                           
+                            <div class="content"> 
+                           </div>
+  
+                        </div>
+                        <img class="i2" src="image/photo.jpg" alt="">
+                        <div class="card">
+                            <div class="bgimg">
+                                <div class="img">
+                                    <!-- <img src="" alt=""> -->
+                                </div>
+                            </div>                           
+                            <div class="content"> 
+                           </div>
+  
+                        </div>
+                        <img class="i3" src="image/photo.jpg" alt="">
+
+                    
+                    
+    </div>
+</body>
+</html>
